@@ -18,5 +18,7 @@ Target board / device is the [iCE40HX8K-B-EVN ](http://www.latticesemi.com/Produ
 
 - [https://github.com/nesl/ice40_examples](https://github.com/nesl/ice40_examples)
 - [https://github.com/mcmayer/iCE40](https://github.com/mcmayer/iCE40)
+- [https://github.com/siorpaes/iCE40prog](https://github.com/siorpaes/iCE40prog)
 - [https://warmcat.com/2016/08/15/getting-started-with-ice40-ultra-fpgas.html](https://warmcat.com/2016/08/15/getting-started-with-ice40-ultra-fpgas.html)
 - [https://martin-jones.com/2015/08/26/first-steps-with-a-lattice-ice40-fpga/](https://martin-jones.com/2015/08/26/first-steps-with-a-lattice-ice40-fpga/)
+- [https://www.eevblog.com/forum/microcontrollers/8$-ice40-developer-board/](https://www.eevblog.com/forum/microcontrollers/8$-ice40-developer-board/)
