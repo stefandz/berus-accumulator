@@ -1,0 +1,129 @@
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Sun Jan 28 11:32:09 2018
+
+
+Command Line:  /home/osboxes/lscc/iCEcube2.2017.08/LSE/bin/lin64/synthesis -f top_level_lse.prj 
+
+Synthesis options:
+The -a option is SBTiCE40.
+The -t option is CT256.
+The -d option is iCE40HX8K.
+                                                          
+
+##########################################################
+
+### Lattice Family : SBTiCE40
+
+### Device  : iCE40HX8K
+
+### Package : CT256
+
+### Number of Logic Cells: 7680
+
+### Number of RAM4k Blocks: 32
+
+### Number of DSP Blocks: 0
+
+### Number of PLLs: 2
+
+### Number of IO Pins: 206
+
+##########################################################
+
+                                                          
+
+Optimization goal = Area
+The -top option is not used.
+Target frequency = 1.000000 MHz.
+Maximum fanout = 10000.
+Timing path count = 3
+RWCheckOnRam = 0
+
+BRAM utilization = 100.000000 %
+DSP usage = true (default)
+DSP utilization = 100 % (default)
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = auto (Default)
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = FALSE
+Use IO Reg = FALSE (implied)
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+Output EDIF file name = top_level_Implmnt/top_level.edf.
+WARNING - synthesis: Option -force_gsr will be set to false when option -output_edif/-ngo are set
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p /media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level (searchpath added)
+VHDL library = work
+VHDL design file = ../top_level.vhdl
+-sdc option: SDC file input not used.
+Technology check ok...
+
+Analyzing Verilog file /home/osboxes/lscc/iCEcube2.2017.08/LSE/userware/unix/SYNTHESIS_HEADERS/machxo2.v. VERI-1482
+Analyzing Verilog file /home/osboxes/lscc/iCEcube2.2017.08/LSE/userware/unix/SYNTHESIS_HEADERS/sb_ice40.v. VERI-1482
+Compile design.
+Compile Design Begin
+WARNING - synthesis: Setting top_level as the top-level module. To specify the top-level module explicitly, use the -top option.
+INFO - synthesis: The default VHDL library search path is now "/media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level". VHDL-1504
+Analyzing VHDL file ../top_level.vhdl. VHDL-1481
+INFO - synthesis: ../top_level.vhdl(7): analyzing entity top_level. VHDL-1012
+INFO - synthesis: ../top_level.vhdl(24): analyzing architecture behaviour. VHDL-1010
+unit top_level is not yet analyzed. VHDL-1485
+Analyzing VHDL file ../top_level.vhdl. VHDL-1481
+INFO - synthesis: ../top_level.vhdl(7): analyzing entity top_level. VHDL-1012
+INFO - synthesis: ../top_level.vhdl(24): analyzing architecture behaviour. VHDL-1010
+unit top_level is not yet analyzed. VHDL-1485
+unit top_level is not yet analyzed. VHDL-1485
+../top_level.vhdl(7): executing top_level(behaviour)
+
+WARNING - synthesis: ../top_level.vhdl(22): replacing existing netlist top_level(behaviour). VHDL-1205
+Top module name (VHDL): top_level
+Loading NGL library '/home/osboxes/lscc/iCEcube2.2017.08/LSE/xo2c00/data/xo2clib.ngl'...
+Loading NGL library '/home/osboxes/lscc/iCEcube2.2017.08/LSE/or5g00/data/orc5glib.ngl'...
+Top-level module name = top_level.
+######## Missing driver on net miso. Patching with GND.
+######## Missing driver on net led_1. Patching with GND.
+######## Missing driver on net led_2. Patching with GND.
+######## Missing driver on net led_3. Patching with GND.
+
+
+
+Applying 1.000000 MHz constraint to all clocks
+
+Writing scf file : top_level_Implmnt/top_level.scf
+
+Results of NGD DRC are available in top_level_drc.log.
+
+################### Begin Area Report (top_level)######################
+Number of register bits => 0 of 7680 (0 % )
+################### End Area Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 0
+Clock Enable Nets
+Number of Clock Enables: 0
+Top 0 highest fanout Clock Enables:
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+################### End Clock Report ##################
+
+Peak Memory Usage: 173.570  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 0.423  secs
+--------------------------------------------------------------

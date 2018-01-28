@@ -1,0 +1,78 @@
+<top name = "top_level"  library = "work"  arch = "RTL"  entry = "VHDL">
+
+<clocks>
+</clocks>
+
+<!--
+    //=============================================================
+    //  Number of Clocks processed: 0
+    //
+    //  If a clock cannot be found in the top level pins section,
+    //  that means it is an internal clock.
+    //
+    //=============================================================
+-->
+
+<library name = "work">
+
+<unit name = "top_level">
+
+    <!--
+        Top Level Pins: 36
+    -->
+
+    <pins>
+        <pitem  name = "ua[11]"  direction = "in"  />
+        <pitem  name = "ua[10]"  direction = "in"  />
+        <pitem  name = "ua[9]"  direction = "in"  />
+        <pitem  name = "ua[8]"  direction = "in"  />
+        <pitem  name = "ua[7]"  direction = "in"  />
+        <pitem  name = "ua[6]"  direction = "in"  />
+        <pitem  name = "ua[5]"  direction = "in"  />
+        <pitem  name = "ua[4]"  direction = "in"  />
+        <pitem  name = "ua[3]"  direction = "in"  />
+        <pitem  name = "ua[2]"  direction = "in"  />
+        <pitem  name = "ua[1]"  direction = "in"  />
+        <pitem  name = "ua[0]"  direction = "in"  />
+        <pitem  name = "ua_ovf"  direction = "in"  />
+        <pitem  name = "ma[11]"  direction = "in"  />
+        <pitem  name = "ma[10]"  direction = "in"  />
+        <pitem  name = "ma[9]"  direction = "in"  />
+        <pitem  name = "ma[8]"  direction = "in"  />
+        <pitem  name = "ma[7]"  direction = "in"  />
+        <pitem  name = "ma[6]"  direction = "in"  />
+        <pitem  name = "ma[5]"  direction = "in"  />
+        <pitem  name = "ma[4]"  direction = "in"  />
+        <pitem  name = "ma[3]"  direction = "in"  />
+        <pitem  name = "ma[2]"  direction = "in"  />
+        <pitem  name = "ma[1]"  direction = "in"  />
+        <pitem  name = "ma[0]"  direction = "in"  />
+        <pitem  name = "ma_ovf"  direction = "in"  />
+        <pitem  name = "reset"  direction = "in"  />
+        <pitem  name = "en"  direction = "in"  />
+        <pitem  name = "acc_clk"  direction = "in"  />
+        <pitem  name = "sck"  direction = "in"  />
+        <pitem  name = "miso"  direction = "out"  />
+        <pitem  name = "mosi"  direction = "in"  />
+        <pitem  name = "cs"  direction = "in"  />
+        <pitem  name = "led_1"  direction = "out"  />
+        <pitem  name = "led_2"  direction = "out"  />
+        <pitem  name = "led_3"  direction = "out"  />
+    </pins>
+
+    <!--
+        Instances in netlist: 0
+    -->
+
+    <!--
+        Views in design "top_level": 0
+    -->
+
+    <views>
+    </views>
+
+</unit>
+
+</library>
+
+</top>

@@ -1,0 +1,7 @@
+/home/osboxes/lscc/iCEcube2.2017.08/synpbase/bin/syn_nfilter  -link  -multisrs  /media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level/top_level_Implmnt/synwork/top_level_comp.srs  -osyn  /media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level/top_level_Implmnt/synwork/top_level_mult.srs  -log  /media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level/top_level_Implmnt/synlog/top_level_multi_srs_gen.srr 
+rc:0 success:1 runtime:0
+file:/media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level/top_level_Implmnt/synwork/top_level_comp.srs|io:i|time:1517138004|size:2028|exec:0
+file:/media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level/top_level_Implmnt/synwork/top_level_mult.srs|io:o|time:1517138005|size:1740|exec:0
+file:/media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level/top_level_Implmnt/synlog/top_level_multi_srs_gen.srr|io:o|time:1517138005|size:979|exec:0
+file:/home/osboxes/lscc/iCEcube2.2017.08/synpbase/linux_a_64/syn_nfilter|io:i|time:1516922210|size:11473624|exec:1
+file:/home/osboxes/lscc/iCEcube2.2017.08/synpbase/bin/syn_nfilter|io:i|time:1517050750|size:368|exec:1

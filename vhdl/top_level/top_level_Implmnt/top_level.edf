@@ -1,0 +1,245 @@
+(edif root
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timeStamp 2018 1 28 11 32 10 123)
+      (author "Lattice Semiconductor Corp.")
+      (program "EDIF Writer"(version "lse"))
+    )
+  )
+  (library PrimitivesExt
+    (edifLevel 0)
+    (technology (numberDefinition))
+    (cell GND
+      (cellType generic)
+      (view (rename INTERFACE_c "INTERFACE")
+        (viewType netlist)
+        (interface
+          (port Y (direction OUTPUT))
+        )
+      )
+    )
+    (cell VCC
+      (cellType generic)
+      (view (rename INTERFACE_c "INTERFACE")
+        (viewType netlist)
+        (interface
+          (port Y (direction OUTPUT))
+        )
+      )
+    )
+  )
+  (library work
+    (edifLevel 0)
+    (technology (numberDefinition))
+    (cell top_level
+      (cellType generic)
+      (view TECH
+        (viewType netlist)
+        (interface
+          (port (array (rename ua "ua[11:0]") 12) (direction INPUT))
+          (port ua_ovf (direction INPUT))
+          (port (array (rename ma "ma[11:0]") 12) (direction INPUT))
+          (port ma_ovf (direction INPUT))
+          (port reset (direction INPUT))
+          (port en (direction INPUT))
+          (port acc_clk (direction INPUT))
+          (port sck (direction INPUT))
+          (port miso (direction OUTPUT))
+          (port mosi (direction INPUT))
+          (port cs (direction INPUT))
+          (port led_1 (direction OUTPUT))
+          (port led_2 (direction OUTPUT))
+          (port led_3 (direction OUTPUT))
+        )
+        (contents
+          (instance i23
+            (viewRef INTERFACE_c (cellRef GND (libraryref PrimitivesExt)))
+          )
+          (instance i68
+            (viewRef INTERFACE_c (cellRef VCC (libraryref PrimitivesExt)))
+          )
+          (net (rename ua_11_ "ua[11]")
+            (joined
+              (portRef (member ua 0))
+            )
+          )
+          (net (rename ua_10_ "ua[10]")
+            (joined
+              (portRef (member ua 1))
+            )
+          )
+          (net (rename ua_9_ "ua[9]")
+            (joined
+              (portRef (member ua 2))
+            )
+          )
+          (net (rename ua_8_ "ua[8]")
+            (joined
+              (portRef (member ua 3))
+            )
+          )
+          (net (rename ua_7_ "ua[7]")
+            (joined
+              (portRef (member ua 4))
+            )
+          )
+          (net (rename ua_6_ "ua[6]")
+            (joined
+              (portRef (member ua 5))
+            )
+          )
+          (net (rename ua_5_ "ua[5]")
+            (joined
+              (portRef (member ua 6))
+            )
+          )
+          (net (rename ua_4_ "ua[4]")
+            (joined
+              (portRef (member ua 7))
+            )
+          )
+          (net (rename ua_3_ "ua[3]")
+            (joined
+              (portRef (member ua 8))
+            )
+          )
+          (net (rename ua_2_ "ua[2]")
+            (joined
+              (portRef (member ua 9))
+            )
+          )
+          (net (rename ua_1_ "ua[1]")
+            (joined
+              (portRef (member ua 10))
+            )
+          )
+          (net (rename ua_0_ "ua[0]")
+            (joined
+              (portRef (member ua 11))
+            )
+          )
+          (net ua_ovf
+            (joined
+              (portRef ua_ovf)
+            )
+          )
+          (net (rename ma_11_ "ma[11]")
+            (joined
+              (portRef (member ma 0))
+            )
+          )
+          (net (rename ma_10_ "ma[10]")
+            (joined
+              (portRef (member ma 1))
+            )
+          )
+          (net (rename ma_9_ "ma[9]")
+            (joined
+              (portRef (member ma 2))
+            )
+          )
+          (net (rename ma_8_ "ma[8]")
+            (joined
+              (portRef (member ma 3))
+            )
+          )
+          (net (rename ma_7_ "ma[7]")
+            (joined
+              (portRef (member ma 4))
+            )
+          )
+          (net (rename ma_6_ "ma[6]")
+            (joined
+              (portRef (member ma 5))
+            )
+          )
+          (net (rename ma_5_ "ma[5]")
+            (joined
+              (portRef (member ma 6))
+            )
+          )
+          (net (rename ma_4_ "ma[4]")
+            (joined
+              (portRef (member ma 7))
+            )
+          )
+          (net (rename ma_3_ "ma[3]")
+            (joined
+              (portRef (member ma 8))
+            )
+          )
+          (net (rename ma_2_ "ma[2]")
+            (joined
+              (portRef (member ma 9))
+            )
+          )
+          (net (rename ma_1_ "ma[1]")
+            (joined
+              (portRef (member ma 10))
+            )
+          )
+          (net (rename ma_0_ "ma[0]")
+            (joined
+              (portRef (member ma 11))
+            )
+          )
+          (net ma_ovf
+            (joined
+              (portRef ma_ovf)
+            )
+          )
+          (net reset
+            (joined
+              (portRef reset)
+            )
+          )
+          (net en
+            (joined
+              (portRef en)
+            )
+          )
+          (net acc_clk
+            (joined
+              (portRef acc_clk)
+            )
+          )
+          (net sck
+            (joined
+              (portRef sck)
+            )
+          )
+          (net mosi
+            (joined
+              (portRef mosi)
+            )
+          )
+          (net cs
+            (joined
+              (portRef cs)
+            )
+          )
+          (net led_3
+            (joined
+              (portRef led_3)
+              (portRef led_2)
+              (portRef led_1)
+              (portRef miso)
+              (portRef Y (instanceRef i23))
+            )
+          )
+          (net VCC_net
+            (joined
+              (portRef Y (instanceRef i68))
+            )
+          )
+        )
+      )
+    )
+  )
+  (design TECH
+    (cellRef top_level (libraryref work))
+  )
+)

@@ -1,0 +1,4 @@
+@E: CD164 :"/media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level.vhdl":27:4:27:9|signal declaration is not legal here
+@E: CD415 :"/media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level.vhdl":44:26:44:26|Expecting keyword of
+@E: Parse errors encountered - exiting
+

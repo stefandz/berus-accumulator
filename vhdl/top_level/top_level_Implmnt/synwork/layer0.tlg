@@ -1,0 +1,19 @@
+@N: CD630 :"/media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level.vhdl":7:7:7:15|Synthesizing work.top_level.behaviour.
+Post processing for work.top_level.behaviour
+@W: CL240 :"/media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level.vhdl":21:4:21:8|Signal led_3 is floating; a simulation mismatch is possible.
+@W: CL240 :"/media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level.vhdl":20:4:20:8|Signal led_2 is floating; a simulation mismatch is possible.
+@W: CL240 :"/media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level.vhdl":19:4:19:8|Signal led_1 is floating; a simulation mismatch is possible.
+@W: CL240 :"/media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level.vhdl":16:4:16:7|Signal miso is floating; a simulation mismatch is possible.
+@W: CL169 :"/media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level.vhdl":31:4:31:5|Pruning unused register acq_count_3(47 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level.vhdl":31:4:31:5|Pruning unused register ma_count_3(63 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level.vhdl":31:4:31:5|Pruning unused register ua_count_4(63 downto 0). Make sure that there are no unused intermediate registers.
+@N: CL159 :"/media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level.vhdl":8:8:8:9|Input ua is unused.
+@N: CL159 :"/media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level.vhdl":9:4:9:9|Input ua_ovf is unused.
+@N: CL159 :"/media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level.vhdl":10:4:10:5|Input ma is unused.
+@N: CL159 :"/media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level.vhdl":11:4:11:9|Input ma_ovf is unused.
+@N: CL159 :"/media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level.vhdl":12:4:12:8|Input reset is unused.
+@N: CL159 :"/media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level.vhdl":13:4:13:5|Input en is unused.
+@N: CL159 :"/media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level.vhdl":14:4:14:10|Input acc_clk is unused.
+@N: CL159 :"/media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level.vhdl":15:4:15:6|Input sck is unused.
+@N: CL159 :"/media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level.vhdl":17:4:17:7|Input mosi is unused.
+@N: CL159 :"/media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level.vhdl":18:4:18:5|Input cs is unused.

@@ -1,0 +1,8 @@
+@W: FX689 :|Unbuffered I/O GND which could cause problems in P&R 
+@W: FX689 :|Unbuffered I/O GND which could cause problems in P&R 
+@W: FX689 :|Unbuffered I/O GND which could cause problems in P&R 
+@W: FX689 :|Unbuffered I/O GND which could cause problems in P&R 
+@W: FX689 :|Unbuffered I/O GND which could cause problems in P&R 
+@W: FX689 :|Unbuffered I/O GND which could cause problems in P&R 
+@W: FX689 :|Unbuffered I/O GND which could cause problems in P&R 
+@W: FX689 :|Unbuffered I/O GND which could cause problems in P&R 

@@ -1,0 +1,8 @@
+----------------------------------------------------------------------
+Report for cell top_level.TECH
+Register bits:  0 of 7680 (0.000%)
+I/O cells:      0
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                        VERIFIC_PWR         1          100.0
+                              TOTAL         1

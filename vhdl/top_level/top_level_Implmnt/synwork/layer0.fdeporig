@@ -1,0 +1,24 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|/media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level/top_level_Implmnt/synwork/top_level_comp.srs|-autotop|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work"
+#CUR:"/home/osboxes/lscc/iCEcube2.2017.08/synpbase/linux_a_64/c_vhdl":1516922207
+#CUR:"/home/osboxes/lscc/iCEcube2.2017.08/synpbase/lib/vhd/location.map":1516922207
+#CUR:"/home/osboxes/lscc/iCEcube2.2017.08/synpbase/lib/vhd/std.vhd":1516922207
+#CUR:"/home/osboxes/lscc/iCEcube2.2017.08/synpbase/lib/vhd/snps_haps_pkg.vhd":1516922207
+#CUR:"/home/osboxes/lscc/iCEcube2.2017.08/synpbase/lib/vhd/std1164.vhd":1516922207
+#CUR:"/home/osboxes/lscc/iCEcube2.2017.08/synpbase/lib/vhd/numeric.vhd":1516922207
+#CUR:"/home/osboxes/lscc/iCEcube2.2017.08/synpbase/lib/vhd/umr_capim.vhd":1516922207
+#CUR:"/home/osboxes/lscc/iCEcube2.2017.08/synpbase/lib/vhd/arith.vhd":1516922207
+#CUR:"/home/osboxes/lscc/iCEcube2.2017.08/synpbase/lib/vhd/unsigned.vhd":1516922207
+#CUR:"/home/osboxes/lscc/iCEcube2.2017.08/synpbase/lib/vhd/hyperents.vhd":1516922207
+#CUR:"/media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level.vhdl":1517137446
+0 "/media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level.vhdl" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+
+# Dependency Lists (Users Of)
+0 -1
+
+# Design Unit to File Association
+arch work top_level behaviour 0
+module work top_level 0

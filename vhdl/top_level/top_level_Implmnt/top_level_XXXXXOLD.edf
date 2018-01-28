@@ -1,0 +1,173 @@
+(edif top_level
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timeStamp 2018 1 28 11 13 32)
+      (author "Synopsys, Inc.")
+      (program "Synplify Pro" (version "L-2016.09L+ice40, mapper maplat, Build 1612R"))
+     )
+   )
+  (library sb_ice
+    (edifLevel 0)
+    (technology (numberDefinition ))
+    (cell GND (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port Y (direction OUTPUT)
+           (property function (string "0"))
+ )
+         )
+        (property is_pwr (integer 1))
+       )
+    )
+    (cell VCC (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port Y (direction OUTPUT)
+           (property function (string "1"))
+ )
+         )
+        (property is_pwr (integer 1))
+       )
+    )
+  )
+  (library work
+    (edifLevel 0)
+    (technology (numberDefinition ))
+    (cell top_level (cellType GENERIC)
+       (view behaviour (viewType NETLIST)
+         (interface
+           (port (array (rename ua "ua(11:0)") 12) (direction INPUT))
+           (port (array (rename ma "ma(11:0)") 12) (direction INPUT))
+           (port ua_ovf (direction INPUT))
+           (port ma_ovf (direction INPUT))
+           (port reset (direction INPUT))
+           (port en (direction INPUT))
+           (port acc_clk (direction INPUT))
+           (port sck (direction INPUT))
+           (port miso (direction OUTPUT))
+           (port mosi (direction INPUT))
+           (port cs (direction INPUT))
+           (port led_1 (direction OUTPUT))
+           (port led_2 (direction OUTPUT))
+           (port led_3 (direction OUTPUT))
+         )
+         (contents
+          (instance VCC (viewRef PRIM (cellRef VCC (libraryRef sb_ice)))          )
+          (instance GND (viewRef PRIM (cellRef GND (libraryRef sb_ice)))          )
+          (net (rename ua_0 "ua(0)") (joined
+           (portRef (member ua 11))
+          ))
+          (net (rename ua_1 "ua(1)") (joined
+           (portRef (member ua 10))
+          ))
+          (net (rename ua_2 "ua(2)") (joined
+           (portRef (member ua 9))
+          ))
+          (net (rename ua_3 "ua(3)") (joined
+           (portRef (member ua 8))
+          ))
+          (net (rename ua_4 "ua(4)") (joined
+           (portRef (member ua 7))
+          ))
+          (net (rename ua_5 "ua(5)") (joined
+           (portRef (member ua 6))
+          ))
+          (net (rename ua_6 "ua(6)") (joined
+           (portRef (member ua 5))
+          ))
+          (net (rename ua_7 "ua(7)") (joined
+           (portRef (member ua 4))
+          ))
+          (net (rename ua_8 "ua(8)") (joined
+           (portRef (member ua 3))
+          ))
+          (net (rename ua_9 "ua(9)") (joined
+           (portRef (member ua 2))
+          ))
+          (net (rename ua_10 "ua(10)") (joined
+           (portRef (member ua 1))
+          ))
+          (net (rename ua_11 "ua(11)") (joined
+           (portRef (member ua 0))
+          ))
+          (net ua_ovf (joined
+           (portRef ua_ovf)
+          ))
+          (net (rename ma_0 "ma(0)") (joined
+           (portRef (member ma 11))
+          ))
+          (net (rename ma_1 "ma(1)") (joined
+           (portRef (member ma 10))
+          ))
+          (net (rename ma_2 "ma(2)") (joined
+           (portRef (member ma 9))
+          ))
+          (net (rename ma_3 "ma(3)") (joined
+           (portRef (member ma 8))
+          ))
+          (net (rename ma_4 "ma(4)") (joined
+           (portRef (member ma 7))
+          ))
+          (net (rename ma_5 "ma(5)") (joined
+           (portRef (member ma 6))
+          ))
+          (net (rename ma_6 "ma(6)") (joined
+           (portRef (member ma 5))
+          ))
+          (net (rename ma_7 "ma(7)") (joined
+           (portRef (member ma 4))
+          ))
+          (net (rename ma_8 "ma(8)") (joined
+           (portRef (member ma 3))
+          ))
+          (net (rename ma_9 "ma(9)") (joined
+           (portRef (member ma 2))
+          ))
+          (net (rename ma_10 "ma(10)") (joined
+           (portRef (member ma 1))
+          ))
+          (net (rename ma_11 "ma(11)") (joined
+           (portRef (member ma 0))
+          ))
+          (net ma_ovf (joined
+           (portRef ma_ovf)
+          ))
+          (net reset (joined
+           (portRef reset)
+          ))
+          (net en (joined
+           (portRef en)
+          ))
+          (net acc_clk (joined
+           (portRef acc_clk)
+          ))
+          (net sck (joined
+           (portRef sck)
+          ))
+          (net mosi (joined
+           (portRef mosi)
+          ))
+          (net cs (joined
+           (portRef cs)
+          ))
+          (net led_3 (joined
+           (portRef Y (instanceRef GND))
+           (portRef led_3)
+           (portRef led_2)
+           (portRef led_1)
+           (portRef miso)
+          ))
+          (net (rename VCCZ0 "VCC") (joined
+           (portRef Y (instanceRef VCC))
+          ))
+         )
+        (property orig_inst_of (string "top_level"))
+       )
+    )
+  )
+  (design top_level (cellRef top_level (libraryRef work))
+	(property PART (string "ice40hx8kct256") (owner "Lattice")))
+)

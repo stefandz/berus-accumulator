@@ -1,0 +1,8 @@
+@W: CL240 :"/media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level.vhdl":21:4:21:8|Signal led_3 is floating; a simulation mismatch is possible.
+@W: CL240 :"/media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level.vhdl":20:4:20:8|Signal led_2 is floating; a simulation mismatch is possible.
+@W: CL240 :"/media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level.vhdl":19:4:19:8|Signal led_1 is floating; a simulation mismatch is possible.
+@W: CL240 :"/media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level.vhdl":16:4:16:7|Signal miso is floating; a simulation mismatch is possible.
+@W: CL169 :"/media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level.vhdl":31:4:31:5|Pruning unused register acq_count_3(47 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level.vhdl":31:4:31:5|Pruning unused register ma_count_3(63 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"/media/sf_stefandz/Documents/Electronics/Personal/Current_integrator/vhdl/berus-accumulator/vhdl/top_level.vhdl":31:4:31:5|Pruning unused register ua_count_4(63 downto 0). Make sure that there are no unused intermediate registers.
+
